@@ -21,7 +21,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
 
       - name: Add upstream remote
-        run: git remote add upstream <UPSTREAM_REPO_URL>
+        run: git remote add upstream https://github.com/MetaCubeX/metacubexd.git
         # 确保替换 <UPSTREAM_REPO_URL> 为上游仓库的URL
 
       - name: Fetch upstream
